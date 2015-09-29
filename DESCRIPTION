@@ -1,8 +1,8 @@
 Package: pinfsc50
-Title: What the Package Does (one line, title case)
+Title: Sequence, annotation and variants for 17 samples of P. infestans and 1 P. mirabilis
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Authors@R: person("Brian", "Knaus", email = "first.last@example.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 Depends: R (>= 3.2.1)
-License: What license is it under?
+License: GPL
 LazyData: true
