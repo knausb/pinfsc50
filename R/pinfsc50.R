@@ -1,0 +1,19 @@
+#' pinfsc50: A package containing the sequence, annotations and variants for \emph{P. infestans}.
+#'
+#' The pinfsc50 package contains data from \emph{Phytophthora infestans} intended to be used as example data.
+#' 
+#' @section pinfsc50 functions:
+#' This package contains no functions.
+#' 
+#' @section files in inst/extdata:
+#' 
+#' \strong{pinf_sc50.fasta} - fasta format file containing the nucleotide sequence for \emph{Phytophthora infestans} T30-4 supercontig_1.50
+#' 
+#' \strong{pinf_sc50.gff} - gff format file containing annotations for supercontig_1.50
+#' 
+#' \strong{pinf_sc50.vcf.gz} - gzipped vcf format file containing variant information for supercontig_1.50
+#'
+#' @docType package
+#' @name pinfsc50
+NULL
+#> NULL
