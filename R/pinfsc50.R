@@ -14,6 +14,10 @@
 #' This file is a subset from a file downloaded from the \href{http://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page called .
 #' 
 #' \strong{pinf_sc50.vcf.gz} - gzipped vcf format file containing variant information for supercontig_1.50.
+#' This file was created with the GATK's haplotype caller.
+#' The data were then phased with beagle4.
+#' beagle4 returns a vcf file with which lacks much of the diagnostic information contained in the input file.
+#' I therefore stripped the unphased genotypes from the original file and pasted on the phased genotypes from beagle4 to create a vcf file with the genotypes from beagle4, but all of the other information contained in the GATK's haplotype caller's file.
 #'
 #'
 #' @references
