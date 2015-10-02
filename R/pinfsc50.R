@@ -22,7 +22,7 @@
 #'
 #'
 #' Short read data for sample t30-4 was downloaded from the \href{http://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page.
-#' Short read data from sample blue13 was published in Cooke et al. ().
+#' Short read data from sample blue13 was published in Cooke et al. (2012).
 #' Short read data from samples DDR7602, LBUS5, NL07434, P10127, P10650, P11633, P12204, P13527, P1362, P13626, P17777us22, P6096 and P7722 were published in Yoshida et al. (2013).
 #' Short read data from samples BL2009P4_us23, IN2009T1_us22, RS2009P1_us8 were published in Martin et al (2013).
 #'
@@ -32,7 +32,7 @@
 #'
 #' @references
 #' 
-#' Cooke 
+#' Cooke, D. E., Cano, L. M., Raffaele, S., Bain, R. A., Cooke, L. R., Etherington, G. J., ... & Kamoun, S. (2012). Genome analyses of an aggressive and invasive lineage of the Irish potato famine pathogen. PLoS Pathog, 8(10), e1002940.
 #' 
 #' Haas, B. J., Kamoun, S., Zody, M. C., Jiang, R. H., Handsaker, R. E., Cano, L. M., ... & Liu, Z. (2009). Genome sequence and analysis of the Irish potato famine pathogen \emph{Phytophthora infestans}. Nature, 461(7262), 393-398.
 #' 
@@ -42,7 +42,22 @@
 #'
 #' Yoshida, K., Schuenemann, V. J., Cano, L. M., Pais, M., Mishra, B., Sharma, R., ... & Burbano, H. A. (2013). The rise and fall of the \emph{Phytophthora infestans} lineage that triggered the Irish potato famine. Elife, 2, e00731.
 #'
+#'
+#'
+#' @examples 
+#' 
+#' \dontrun{
+#' dna <- system.file("extdata", "pinf_sc50.fasta", package = "pinfsc50")
+#' dna <- ape::read.dna(dna, format="fasta")
+#' gff <- system.file("extdata", "pinf_sc50.gff", package = "pinfsc50")
+#' gff <- read.table(gff, header=FALSE, sep="\t", quote = "")
+#' vcf <- system.file("extdata", "pinf_sc50.vcf.gz", package = "pinfsc50")
+#' vcf <- vcfR::read.vcf(vcf)
+#' }
+#'
 #' @docType package
 #' @name pinfsc50
 NULL
 #> NULL
+
+
