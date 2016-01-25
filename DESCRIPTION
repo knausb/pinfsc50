@@ -2,7 +2,7 @@ Package: pinfsc50
 Title: Sequence (fasta), annotation (gff) and variants (vcf) for 17 samples of P. infestans and 1 P. mirabilis
 Version: 0.0.0.9000
 Authors@R: person("Brian", "Knaus", email = "briank.lists@gmail.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: This package consists of genomic data for the plant pathogen Phytophthora infestans. It includes a variant file (vcf) sequence file (fasta) and an annotation file (gff). This package is intended to be used as example data for packages that work with genomic data.
 Depends: R (>= 3.2.1)
 License: GPL
 LazyData: true
