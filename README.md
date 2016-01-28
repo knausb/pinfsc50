@@ -16,3 +16,8 @@ To install use:
 
     devtools::install_github(repo="knausb/pinfsc50")
 
+
+To use:
+
+    library('pinfsc50')
+    ?"pinfsc50"
