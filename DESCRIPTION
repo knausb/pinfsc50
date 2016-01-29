@@ -1,6 +1,6 @@
 Package: pinfsc50
 Title: Sequence ("Fasta"), Annotation ("Gff") and Variants ("Vcf") for 17 Samples of "P. Infestans" and 1 "P. Mirabilis"
-Version: 1.0.0
+Version: 1.0.0.9000
 Authors@R: c(person(c("Brian", "J."), "Knaus", role = c("cre", "aut"),
     email = "briank.lists@gmail.com"),
     person(c("Niklaus", "J."), "Grunwald", role = "aut",

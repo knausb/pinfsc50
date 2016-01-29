@@ -1,3 +1,3 @@
 
 # pinfsc50 1.0.0
-Initial release.
+Initial release at CRAN on 2016-01-29.
