@@ -52,7 +52,7 @@
 #' gff <- system.file("extdata", "pinf_sc50.gff", package = "pinfsc50")
 #' gff <- read.table(gff, header=FALSE, sep="\t", quote = "")
 #' vcf <- system.file("extdata", "pinf_sc50.vcf.gz", package = "pinfsc50")
-#' vcf <- vcfR::read.vcf(vcf)
+#' vcf <- vcfR::read.vcfR(vcf)
 #' }
 #'
 #' @docType package

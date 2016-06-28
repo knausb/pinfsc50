@@ -3,6 +3,8 @@
 
 # pinfsc50 1.0.0.9000
 
+
+* Updated read.vcf to read.vcfR
 * Added CITATION
 
 
