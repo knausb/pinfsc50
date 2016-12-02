@@ -4,6 +4,7 @@
 
 
 # pinfsc50 1.1.0.
+Released on CRAn on 2016-12-02
 
 * Caught typos
 * Deprecated the Broad's species page links
