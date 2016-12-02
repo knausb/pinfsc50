@@ -1,6 +1,11 @@
 
 This is a data only package used by another package I'm working on.
 
+## Resubmission
+This is a resubmission. In this version I have:
+
+updated CRAN URL to canonical form (https:// vs http://)
+
 
 ## Test environments
 * local ubuntu 16.04 LTS, R 3.3.2
@@ -14,7 +19,7 @@ This is a data only package used by another package I'm working on.
 There were no ERRORs or WARNINGs. 
 
 
-There were 0 NOTE:
+There were 0 NOTEs:
 
 
 ## Downstream dependencies
