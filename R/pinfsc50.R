@@ -1,4 +1,4 @@
-#' pinfsc50: A package containing the sequence, annotations and variants for \emph{P. infestans}.
+#' pinfsc50: A package containing the sequence, annotations and variants for \emph{P. infestans} Supercontig_1.50.
 #'
 #' The pinfsc50 package contains data from \emph{Phytophthora infestans} intended to be used as example data.
 #' 
@@ -7,26 +7,27 @@
 #' 
 #' @section Files in inst/extdata:
 #' 
-#' \strong{pinf_sc50.fasta} - fasta format file containing the nucleotide sequence for \emph{Phytophthora infestans} T30-4 supercontig_1.50.
-#' This sequence is a subset from a file downloaded from the \href{http://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page.
+#' \strong{pinf_sc50.fasta} - FASTA format file containing the nucleotide sequence for \emph{Phytophthora infestans} T30-4 Supercontig_1.50.
+# This sequence is a subset from a file downloaded from the \href{http://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page.
 #' This data was published in Haas et al. (2009).
 #' 
-#' \strong{pinf_sc50.gff} - gff format file containing annotations for supercontig_1.50
-#' This file is a subset from a file downloaded from the \href{http://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page called .
+#' \strong{pinf_sc50.gff} - GFF format file containing annotations for Supercontig_1.50
+# This file is a subset from a file downloaded from the \href{http://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page called .
 #' 
-#' \strong{pinf_sc50.vcf.gz} - gzipped vcf format file containing variant information for supercontig_1.50.
+#' \strong{pinf_sc50.vcf.gz} - gzipped VCF format file containing variant information for Supercontig_1.50.
 #' This file was created with the GATK's haplotype caller.
 #' The data were then phased with beagle4.
-#' beagle4 returns a vcf file with which lacks much of the diagnostic information contained in the input file.
+#' beagle4 returns a VCF file which lacks much of the diagnostic information contained in the input file.
 #' I therefore stripped the unphased genotypes from the original file and pasted on the phased genotypes from beagle4 to create a vcf file with the genotypes from beagle4, but all of the other information contained in the GATK's haplotype caller's file.
+#' The goal here was to create a dataset that could provide a diverse set of examples for learning how to work with this type of data.
+#' I would not consider this a 'best practices' for an actual data analysis workflow.
 #'
 #'
-#' Short read data for sample t30-4 was downloaded from the \href{http://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page.
+# Short read data for sample t30-4 was downloaded from the \href{http://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page.
+#' Short read data for sample t30-4 was downloaded from the Broad's \emph{P. infestans} page.
 #' Short read data from sample blue13 was published in Cooke et al. (2012).
 #' Short read data from samples DDR7602, LBUS5, NL07434, P10127, P10650, P11633, P12204, P13527, P1362, P13626, P17777us22, P6096 and P7722 were published in Yoshida et al. (2013).
 #' Short read data from samples BL2009P4_us23, IN2009T1_us22, RS2009P1_us8 were published in Martin et al (2013).
-#'
-#'
 #'
 #'
 #'
