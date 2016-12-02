@@ -3,7 +3,7 @@
 
 Phytophthora infestans supercontig_1.50
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/pinfsc50)](http://cran.r-project.org/package=pinfsc50)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/pinfsc50)](https://cran.r-project.org/package=pinfsc50)
 
 This package consists of genomic data for the plant pathogen Phytophthora infestans.
 It includes a variant file (vcf) sequence file (fasta) and an annotation file (gff).
