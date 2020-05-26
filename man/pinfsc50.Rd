@@ -3,7 +3,6 @@
 \docType{package}
 \name{pinfsc50}
 \alias{pinfsc50}
-\alias{pinfsc50-package}
 \title{pinfsc50: A package containing the sequence, annotations and variants for \emph{P. infestans} Supercontig_1.50.}
 \description{
 The pinfsc50 package contains data from \emph{Phytophthora infestans} intended to be used as example data.
@@ -35,13 +34,14 @@ Short read data from sample blue13 was published in Cooke et al. (2012).
 Short read data from samples DDR7602, LBUS5, NL07434, P10127, P10650, P11633, P12204, P13527, P1362, P13626, P17777us22, P6096 and P7722 were published in Yoshida et al. (2013).
 Short read data from samples BL2009P4_us23, IN2009T1_us22, RS2009P1_us8 were published in Martin et al (2013).
 }
+
 \examples{
 
 \dontrun{
 dna <- system.file("extdata", "pinf_sc50.fasta", package = "pinfsc50")
 dna <- ape::read.dna(dna, format="fasta")
 gff <- system.file("extdata", "pinf_sc50.gff", package = "pinfsc50")
-gff <- read.table(gff, header=FALSE, sep="\\t", quote = "")
+gff <- read.table(gff, header=FALSE, sep="\t", quote = "")
 vcf <- system.file("extdata", "pinf_sc50.vcf.gz", package = "pinfsc50")
 vcf <- vcfR::read.vcfR(vcf)
 }
@@ -58,4 +58,3 @@ Martin, M. D., Cappellini, E., Samaniego, J. A., Zepeda, M. L., Campos, P. F., S
 
 Yoshida, K., Schuenemann, V. J., Cano, L. M., Pais, M., Mishra, B., Sharma, R., ... & Burbano, H. A. (2013). The rise and fall of the \emph{Phytophthora infestans} lineage that triggered the Irish potato famine. Elife, 2, e00731.
 }
-
