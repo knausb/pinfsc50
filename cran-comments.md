@@ -1,15 +1,11 @@
 
 This is a data only package used by another package I'm working on.
 
-## Resubmission
-This is a resubmission. In this version I have:
-
-updated CRAN URL to canonical form (https:// vs http://)
 
 
 ## Test environments
-* local ubuntu 16.04 LTS, R 3.3.2
-* local OS X install, R 3.3.2
+* local ubuntu 18.04 LTS, R 4.0.0
+* local OS X 10.15.4 install, R 4.0.0
 * rhub::check( platform = "ubuntu-gcc-devel" )
 * rhub::check( platform = "windows-x86_64-release" )
 * rhub::check( platform = "windows-x86_64-devel" )
