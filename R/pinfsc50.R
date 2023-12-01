@@ -8,11 +8,11 @@
 #' @section Files in inst/extdata:
 #' 
 #' \strong{pinf_sc50.fasta} - FASTA format file containing the nucleotide sequence for \emph{Phytophthora infestans} T30-4 Supercontig_1.50.
-# This sequence is a subset from a file downloaded from the \href{http://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page.
+# This sequence is a subset from a file downloaded from the \href{https://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page.
 #' This data was published in Haas et al. (2009).
 #' 
 #' \strong{pinf_sc50.gff} - GFF format file containing annotations for Supercontig_1.50
-# This file is a subset from a file downloaded from the \href{http://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page called .
+# This file is a subset from a file downloaded from the \href{https://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page called .
 #' 
 #' \strong{pinf_sc50.vcf.gz} - gzipped VCF format file containing variant information for Supercontig_1.50.
 #' This file was created with the GATK's haplotype caller.
@@ -23,7 +23,7 @@
 #' I would not consider this a 'best practices' for an actual data analysis workflow.
 #'
 #'
-# Short read data for sample t30-4 was downloaded from the \href{http://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page.
+# Short read data for sample t30-4 was downloaded from the \href{https://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html}{Broad's \emph{P. infestans}} page.
 #' Short read data for sample t30-4 was downloaded from the Broad's \emph{P. infestans} page.
 #' Short read data from sample blue13 was published in Cooke et al. (2012).
 #' Short read data from samples DDR7602, LBUS5, NL07434, P10127, P10650, P11633, P12204, P13527, P1362, P13626, P17777us22, P6096 and P7722 were published in Yoshida et al. (2013).
@@ -39,7 +39,7 @@
 #' 
 #' Martin, M. D., Cappellini, E., Samaniego, J. A., Zepeda, M. L., Campos, P. F., Seguin-Orlando, A., ... & Gilbert, M. T. P. (2013). Reconstructing genome evolution in historic samples of the Irish potato famine pathogen. Nature communications, 4.
 #' 
-#' \emph{Phytophthora infestans} Sequencing Project, Broad Institute of Harvard and MIT (\url{http://www.broadinstitute.org/}). 
+#' \emph{Phytophthora infestans} Sequencing Project, Broad Institute of Harvard and MIT (\url{https://www.broadinstitute.org/}). 
 #'
 #' Yoshida, K., Schuenemann, V. J., Cano, L. M., Pais, M., Mishra, B., Sharma, R., ... & Burbano, H. A. (2013). The rise and fall of the \emph{Phytophthora infestans} lineage that triggered the Irish potato famine. Elife, 2, e00731.
 #'

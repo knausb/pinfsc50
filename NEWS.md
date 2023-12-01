@@ -1,10 +1,15 @@
 
-# pinfsc50 1.1.0.9000
 
+# pinfsc50 1.3.0.
+Released on CRAN on 202X-12-XX
+* Changed http to https
+* Added Encoding: UTF-8 and LazyData: false to DESCRIPTION
 
+# pinfsc50 1.2.0.
+Released on CRAN on 2020-06-03
 
 # pinfsc50 1.1.0.
-Released on CRAn on 2016-12-02
+Released on CRAN on 2016-12-02
 
 * Caught typos
 * Deprecated the Broad's species page links

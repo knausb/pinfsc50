@@ -54,7 +54,7 @@ Haas, B. J., Kamoun, S., Zody, M. C., Jiang, R. H., Handsaker, R. E., Cano, L. M
 
 Martin, M. D., Cappellini, E., Samaniego, J. A., Zepeda, M. L., Campos, P. F., Seguin-Orlando, A., ... & Gilbert, M. T. P. (2013). Reconstructing genome evolution in historic samples of the Irish potato famine pathogen. Nature communications, 4.
 
-\emph{Phytophthora infestans} Sequencing Project, Broad Institute of Harvard and MIT (\url{http://www.broadinstitute.org/}). 
+\emph{Phytophthora infestans} Sequencing Project, Broad Institute of Harvard and MIT (\url{https://www.broadinstitute.org/}). 
 
 Yoshida, K., Schuenemann, V. J., Cano, L. M., Pais, M., Mishra, B., Sharma, R., ... & Burbano, H. A. (2013). The rise and fall of the \emph{Phytophthora infestans} lineage that triggered the Irish potato famine. Elife, 2, e00731.
 }
