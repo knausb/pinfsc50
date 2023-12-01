@@ -4,6 +4,7 @@
 Released on CRAN on 202X-12-XX
 * Changed http to https
 * Added Encoding: UTF-8 and LazyData: false to DESCRIPTION
+* Ran usethis::use_package_doc()
 
 # pinfsc50 1.2.0.
 Released on CRAN on 2020-06-03
