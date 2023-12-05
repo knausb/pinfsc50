@@ -1,7 +1,7 @@
 
 
 # pinfsc50 1.3.0.
-Released on CRAN on 202X-12-XX
+Released on CRAN on 2023-12-05
 * Changed http to https
 * Added Encoding: UTF-8 and LazyData: false to DESCRIPTION
 * Ran usethis::use_package_doc()

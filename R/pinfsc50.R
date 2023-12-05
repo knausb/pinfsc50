@@ -57,7 +57,7 @@
 #' }
 #'
 #' @docType package
-#' @name pinfsc50
+#' @name pinfsc50_data
 NULL
 #> NULL
 
